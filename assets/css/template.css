@@ -1,0 +1,230 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --bg-color: rgb(0, 71, 112);
+    --bg-second: lightgray;
+    --bg-header: rgb(218, 218, 218);
+    --font-color: rgb(0, 71, 112);
+    --font-size: 25px;
+    --font-color2: white;
+    --box-shadow-color: rgb(6, 147, 194);
+}
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    background-color: var(--bg-header);
+    padding-bottom: 2px;
+}
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+.header-logo{
+    flex: 1;
+    align-items: none;
+    margin: 0px;
+    padding: 0px;
+}
+.header-logo img{
+    height: 100%;
+    width: 100%;
+}
+.header-perfil{
+    flex: 2;
+    margin-top: 40px;
+}
+.header-perfil h1{
+    text-decoration: underline;
+    color: var(--font-color);
+    margin: 0px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+.header-perfil h2{
+    font-family: 'Indie Flower';
+    color: var(--font-color);
+    margin: 0px;
+    margin-left: 40px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+.dados-pessoais{
+    flex: 1;
+    background-color: var(--bg-color);
+    max-width: 330px;
+}
+.dados-title h1,
+.dados-title h2{
+    margin: 5px;
+}
+.dados-title h1{
+    font-size: 30px;
+    color: var(--font-color2);
+    text-align: center;
+}
+.dados-title h2{
+    font-size: 16px;
+    color: var(--font-color2);
+    text-align: center;
+    font-style: italic;
+}
+.dados-title aside{
+    margin-bottom: 70px;
+}
+.informacoes-pessoais{
+    flex: 1;
+    background-color: var(--bg-color);
+    text-align: center;
+}
+.informacoes-pessoais h1{
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+    color: var(--font-color2);
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+.informacoes-pessoais li{
+    list-style: none;
+    text-align: justify;
+    color: var(--font-color2);
+    margin: 9px;
+}
+.contato-pessoal{
+    flex: 1;
+    background-color: var(--bg-color);
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.contato-pessoal h1{
+        margin: 0px;
+        padding: 0px;
+        font-size: 22px;
+        color: var(--font-color2);
+        margin-bottom: 5px;
+        text-decoration: underline;
+}
+.contato-pessoal li{
+    list-style: none;
+    color: var(--font-color2);
+    margin: 9px;
+}
+.body-curriculo1 {
+    flex: 2;
+    background-color: #999;
+    min-width: 1010px;
+}
+.inf-body{
+    min-height: 210px;
+    display: flex;
+    justify-content: center;
+}
+.informacoes-profissionais h1{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0, 71, 112);
+    text-decoration: underline;
+}
+.inf1,
+.inf2,
+.inf3{
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+.inf1{
+    background-color: #666;
+}
+.inf2{
+    background-color: #777;
+}
+.inf3{
+    background-color: #666;
+}
+.inf1 h2,
+.inf2 h2,
+.inf3 h2{
+    font-size: 30px;
+    text-decoration: none;
+}
+.inf1 h3,
+.inf2 h3,
+.inf3 h3{
+    font-size: 20px;
+    text-decoration: none;
+}
+.inf1 a{
+    text-decoration: none;
+    color: white;
+}
+.inf_desc{
+    font-size: 12px;
+    text-shadow: 1px 1px 1px #555;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer{
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #1e1e1e;
+}
+.footer-area{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-area h1{
+    color: white;
+    text-decoration: underline;
+}
+.footer-logos{
+    color: white;
+    display: flex;
+    flex: 1;
+}
+.footer-logos img{
+    border-radius: 5px;
+}
+.logo-instagram,
+.logo-facebook,
+.logo-linkedin{
+    margin: 15px;
+}
+.footer-logos a{
+    text-decoration: none;
+    color: white;
+}
+.video-fundo{
+    flex: 1;
+}
+.video-fundo video{
+    width: 320px;
+    height: 100%;
+}
+.footer-copy {
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    margin-top: 30px;
+    color: lightgray;
+}
+.column{
+    flex-direction: column;
+}

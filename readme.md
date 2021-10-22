@@ -1,0 +1,1 @@
+Projeto criado com o objetivo de produzir uma página de apresentação pessoal, com um currículo dinâmico e diferente dos padrões.
